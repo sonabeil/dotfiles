@@ -102,4 +102,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# FZF
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# kubectl completion
+source <(kubectl completion zsh)
