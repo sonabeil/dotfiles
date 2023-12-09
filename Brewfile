@@ -1,5 +1,6 @@
-brew "fzf"
 brew "awscli"
-brew "kubernetes-cli"
+brew "fzf"
+brew "jq"
 brew "k9s"
+brew "kubernetes-cli"
 cask "aws-vault"
